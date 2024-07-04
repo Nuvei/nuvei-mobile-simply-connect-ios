@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NuveiSimplyConnectSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NuveiSimplyConnectSDK
 import AdSupport
 import CommonCrypto
 import Compression
@@ -340,7 +339,7 @@ public class NVOutput {
 }
 extension NuveiSimplyConnectSDK.NuveiCreditCardField {
   @_Concurrency.MainActor(unsafe) public func validate(callback: (Swift.String?, [NuveiSimplyConnectSDK.InputError]?) -> ())
-  @_Concurrency.MainActor(unsafe) public func tokenize(transactionDetails: NuveiSimplyConnectSDK.CheckoutTransactionDetails, additionalParams: [Swift.String : Any] = [:], callback: @escaping (Swift.String?) -> ())
+  @_Concurrency.MainActor(unsafe) public func tokenize(transactionDetails: NuveiSimplyConnectSDK.CheckoutTransactionDetails, additionalParams: [Swift.String : Any] = [:], callback: @escaping (Swift.String?, Swift.String?) -> ())
   @_Concurrency.MainActor(unsafe) public func createPayment(viewController: UIKit.UIViewController, transactionDetails: NuveiSimplyConnectSDK.CheckoutTransactionDetails, additionalParams: [Swift.String : Any] = [:], forceWebChallenge: Swift.Bool = true, callback: @escaping (NuveiSimplyConnectSDK.NVCreatePaymentOutput) -> (), declineFallbackDecision: NuveiSimplyConnectSDK.NuveiSimplyConnect.DeclineFallbackDecisionCallback?)
 }
 extension UIKit.UIColor {
