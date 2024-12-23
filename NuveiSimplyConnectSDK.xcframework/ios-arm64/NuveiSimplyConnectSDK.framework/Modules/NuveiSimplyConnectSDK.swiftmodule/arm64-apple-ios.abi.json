@@ -25621,56 +25621,56 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "BooleanLiteral",
-      "offset": 49074,
+      "offset": 49544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 55613,
+      "offset": 56083,
       "length": 12,
       "value": "\"F000000000\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 55687,
+      "offset": 56157,
       "length": 72,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr\/O0BfXWngO9OJDBsqdR5U2h28\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 55774,
+      "offset": 56244,
       "length": 74,
       "value": "\"jrX6Y+LlblTBaYeT2tW7+ca3YzTFXA8duVUwdlWxl3JZCOOeL1feVP6g0TNOHVCkCnirVDLk\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 55863,
+      "offset": 56333,
       "length": 74,
       "value": "\"cozod4aSkNvx+929aDr1ithqhruf0skBc2sMZGBBCNpso6XGzyAf2uZ2+9DvXoKIUYgcr7PQ\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 55952,
+      "offset": 56422,
       "length": 74,
       "value": "\"mL2Y0awyQN7KCRcusaotYNz2mOPrL\/hAv6hTexkNrQKzFcPwCuc6kN6aNjD+p2CJ51\/5p02S\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 56041,
+      "offset": 56511,
       "length": 74,
       "value": "\"NS70nPOmwmg63j6f3n7xVykQ56kNc1l5B5xOpeHJmqk3+hyF1dF\/47rQmMFicN41QSvZ5AZJ\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "StringLiteral",
-      "offset": 56130,
+      "offset": 56600,
       "length": 36,
       "value": "\"KgWlIn2VQROMkEHkF9ZBRLx1nFTwIDAQAB\""
     },
