@@ -13,10 +13,18 @@ let package = Package(
             name: "NuveiSimplyConnectSDK",
             targets: ["NuveiSimplyConnectSDKWrapper"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/airsidemobile/JOSESwift", from: "2.4.0"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.8.2"),
+        .package(url: "https://github.com/roberthein/TinyConstraints", from: "4.0.2"),
+    ],
     targets: [
         .target(
             name: "NuveiSimplyConnectSDKWrapper",
             dependencies: [
+                .product(name: "JOSESwift", package: "JOSESwift"),
+                .product(name: "CryptoSwift", package: "CryptoSwift"),
+                .product(name: "TinyConstraints", package: "TinyConstraints"),
                 .target(name: "NuveiSimplyConnectSDKFramework")
             ],
             path: "SwiftPM/NuveiSimplyConnectSDKWrapper"
