@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NuveiSimplyConnectSDK",
+    "printedName": "NuveiSimplyConnectSDK",
     "children": [
       {
         "kind": "Import",
@@ -490,6 +490,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -614,6 +628,22 @@
         "superclassUsr": "s:21NuveiSimplyConnectSDK0A17BaseCustomizationC",
         "superclassNames": [
           "NuveiSimplyConnectSDK.NuveiBaseCustomization"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -844,7 +874,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1230,6 +1276,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1344,6 +1404,22 @@
         "superclassUsr": "s:21NuveiSimplyConnectSDK0A17BaseCustomizationC",
         "superclassNames": [
           "NuveiSimplyConnectSDK.NuveiBaseCustomization"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1513,6 +1589,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2988,6 +3078,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -4201,6 +4305,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -4400,6 +4518,50 @@
                 "declKind": "Accessor",
                 "usr": "s:21NuveiSimplyConnectSDK7NVInputV18applePayMerchantIdSSvg",
                 "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV18applePayMerchantIdSSvg",
+                "moduleName": "NuveiSimplyConnectSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "applePayMerchantName",
+            "printedName": "applePayMerchantName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NuveiSimplyConnectSDK7NVInputV20applePayMerchantNameSSvp",
+            "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV20applePayMerchantNameSSvp",
+            "moduleName": "NuveiSimplyConnectSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NuveiSimplyConnectSDK7NVInputV20applePayMerchantNameSSvg",
+                "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV20applePayMerchantNameSSvg",
                 "moduleName": "NuveiSimplyConnectSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5020,6 +5182,66 @@
           },
           {
             "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NuveiSimplyConnectSDK7NVInputV11countryCodeSSSgvp",
+            "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV11countryCodeSSSgvp",
+            "moduleName": "NuveiSimplyConnectSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NuveiSimplyConnectSDK7NVInputV11countryCodeSSSgvg",
+                "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV11countryCodeSSSgvg",
+                "moduleName": "NuveiSimplyConnectSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "dynamicDescriptor",
             "printedName": "dynamicDescriptor",
             "children": [
@@ -5169,13 +5391,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sessionToken:merchantId:applePayMerchantId:merchantSiteId:currency:amount:paymentOption:userTokenId:clientUniqueId:clientRequestId:customData:billingAddress:shippingAddress:userDetails:merchantDetails:dynamicDescriptor:timeout:requestTimeout:)",
+            "printedName": "init(sessionToken:merchantId:applePayMerchantId:applePayMerchantName:merchantSiteId:currency:amount:paymentOption:userTokenId:clientUniqueId:clientRequestId:customData:billingAddress:shippingAddress:userDetails:merchantDetails:countryCode:dynamicDescriptor:timeout:requestTimeout:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "NVInput",
                 "printedName": "NuveiSimplyConnectSDK.NVInput",
                 "usr": "s:21NuveiSimplyConnectSDK7NVInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5342,6 +5570,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "NuveiSimplyConnectSDK.NVDynamicDescriptor?",
                 "children": [
                   {
@@ -5370,8 +5613,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21NuveiSimplyConnectSDK7NVInputV12sessionToken10merchantId016applePayMerchantI00h4SiteI08currency6amount13paymentOption04usergI0012clientUniqueI00s7RequestI010customData14billingAddress08shippingY00R7Details0H7Details17dynamicDescriptor7timeout14requestTimeoutACSS_S5SAA09NVPaymentQ0VSSSgA3xA09NVBillingY0CSgAA010NVShippingY0CSgAA13NVUserDetailsVSgAA17NVMerchantDetailsVSgAA19NVDynamicDescriptorVSgS2itcfc",
-            "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV12sessionToken10merchantId016applePayMerchantI00h4SiteI08currency6amount13paymentOption04usergI0012clientUniqueI00s7RequestI010customData14billingAddress08shippingY00R7Details0H7Details17dynamicDescriptor7timeout14requestTimeoutACSS_S5SAA09NVPaymentQ0VSSSgA3xA09NVBillingY0CSgAA010NVShippingY0CSgAA13NVUserDetailsVSgAA17NVMerchantDetailsVSgAA19NVDynamicDescriptorVSgS2itcfc",
+            "usr": "s:21NuveiSimplyConnectSDK7NVInputV12sessionToken10merchantId016applePayMerchantI00jkL4Name0h4SiteI08currency6amount13paymentOption04usergI0012clientUniqueI00t7RequestI010customData14billingAddress08shippingZ00S7Details0H7Details11countryCode17dynamicDescriptor7timeout14requestTimeoutACSS_S6SAA09NVPaymentR0VSSSgA3zA09NVBillingZ0CSgAA010NVShippingZ0CSgAA13NVUserDetailsVSgAA17NVMerchantDetailsVSgAzA19NVDynamicDescriptorVSgS2itcfc",
+            "mangledName": "$s21NuveiSimplyConnectSDK7NVInputV12sessionToken10merchantId016applePayMerchantI00jkL4Name0h4SiteI08currency6amount13paymentOption04usergI0012clientUniqueI00t7RequestI010customData14billingAddress08shippingZ00S7Details0H7Details11countryCode17dynamicDescriptor7timeout14requestTimeoutACSS_S6SAA09NVPaymentR0VSSSgA3zA09NVBillingZ0CSgAA010NVShippingZ0CSgAA13NVUserDetailsVSgAA17NVMerchantDetailsVSgAzA19NVDynamicDescriptorVSgS2itcfc",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
               "AccessControl"
@@ -5440,6 +5683,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -6294,6 +6551,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -7525,6 +7796,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -7777,6 +8062,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -8176,6 +8475,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9111,6 +9424,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "JSONWebEncryptionHeader",
             "printedName": "JSONWebEncryptionHeader",
             "usr": "s:21NuveiSimplyConnectSDK23JSONWebEncryptionHeaderP",
@@ -9133,10 +9460,7 @@
         "name": "TinyConstraints",
         "printedName": "TinyConstraints",
         "declKind": "Import",
-        "moduleName": "NuveiSimplyConnectSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "NuveiSimplyConnectSDK"
       },
       {
         "kind": "TypeDecl",
@@ -9160,8 +9484,9 @@
             "mangledName": "$s21NuveiSimplyConnectSDK0A5FieldC13customizationAA0aE13CustomizationCvp",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -9252,6 +9577,7 @@
             "mangledName": "$s21NuveiSimplyConnectSDK0A5FieldC13customizationAcA0aE13CustomizationC_tcfc",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9263,6 +9589,7 @@
         "mangledName": "$s21NuveiSimplyConnectSDK0A5FieldC",
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -9276,6 +9603,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9550,6 +9891,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9703,6 +10060,22 @@
         "superclassUsr": "s:21NuveiSimplyConnectSDK0A17BaseCustomizationC",
         "superclassNames": [
           "NuveiSimplyConnectSDK.NuveiBaseCustomization"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -9842,6 +10215,22 @@
         "superclassUsr": "s:21NuveiSimplyConnectSDK0A17BaseCustomizationC",
         "superclassNames": [
           "NuveiSimplyConnectSDK.NuveiBaseCustomization"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10827,6 +11216,22 @@
         "superclassUsr": "s:21NuveiSimplyConnectSDK8NVOutputC",
         "superclassNames": [
           "NuveiSimplyConnectSDK.NVOutput"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11260,6 +11665,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11613,6 +12034,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -11921,6 +12356,20 @@
             ],
             "enumRawTypeName": "String",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -13344,6 +13793,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -13415,10 +13880,7 @@
         "name": "TinyConstraints",
         "printedName": "TinyConstraints",
         "declKind": "Import",
-        "moduleName": "NuveiSimplyConnectSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "NuveiSimplyConnectSDK"
       },
       {
         "kind": "TypeDecl",
@@ -13463,8 +13925,9 @@
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -13626,8 +14089,9 @@
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -13841,6 +14305,7 @@
             "mangledName": "$s21NuveiSimplyConnectSDK0A15CreditCardFieldC8validate8callbackyySSSg_SayAA10InputErrorOGSgtXE_tF",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -13935,6 +14400,7 @@
             "mangledName": "$s21NuveiSimplyConnectSDK0A15CreditCardFieldC8tokenize18transactionDetails16additionalParams8callbackyAA019CheckoutTransactionJ0V_SDySSypGySSSg_AKtctF",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -14070,6 +14536,7 @@
             "mangledName": "$s21NuveiSimplyConnectSDK0A15CreditCardFieldC13createPayment14viewController18transactionDetails16additionalParams17forceWebChallenge8callback23declineFallbackDecisionySo06UIViewK0C_AA019CheckoutTransactionM0VSDySSypGSbyAA08NVCreateI6OutputCcyAQ_ALyAA0abC0C0X16CompletionActionOctcSgtF",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -14081,6 +14548,7 @@
         "mangledName": "$s21NuveiSimplyConnectSDK0A15CreditCardFieldC",
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -14095,6 +14563,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14233,6 +14715,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "NuveiSimplyConnectSDK"
       },
       {
         "kind": "Import",
@@ -14926,6 +15415,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Encodable",
                 "printedName": "Encodable",
                 "usr": "s:SE",
@@ -15000,6 +15503,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -15714,6 +16231,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Encodable",
                 "printedName": "Encodable",
                 "usr": "s:SE",
@@ -15790,6 +16321,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -15829,10 +16374,7 @@
         "name": "TinyConstraints",
         "printedName": "TinyConstraints",
         "declKind": "Import",
-        "moduleName": "NuveiSimplyConnectSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "NuveiSimplyConnectSDK"
       },
       {
         "kind": "Import",
@@ -15896,13 +16438,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sessionToken:merchantId:applePayMerchantId:merchantSiteId:currency:amount:userTokenId:clientUniqueId:clientRequestId:customData:billingAddress:shippingAddress:userDetails:merchantDetails:dynamicDescriptor:paymentOption:countryOverrde:forceWebChallenge:)",
+            "printedName": "init(sessionToken:merchantId:applePayMerchantId:applePayMerchantName:merchantSiteId:currency:amount:userTokenId:clientUniqueId:clientRequestId:customData:billingAddress:shippingAddress:userDetails:merchantDetails:dynamicDescriptor:paymentOption:countryCode:forceWebChallenge:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "CheckoutTransactionDetails",
                 "printedName": "NuveiSimplyConnectSDK.CheckoutTransactionDetails",
                 "usr": "s:21NuveiSimplyConnectSDK26CheckoutTransactionDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -16102,8 +16650,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21NuveiSimplyConnectSDK26CheckoutTransactionDetailsV12sessionToken10merchantId016applePayMerchantK00j4SiteK08currency6amount04useriK0012clientUniqueK00s7RequestK010customData14billingAddress08shippingY00rG00jG017dynamicDescriptor13paymentOption14countryOverrde17forceWebChallengeACSS_S6SSgA3vA09NVBillingY0CSgAA010NVShippingY0CSgAA06NVUserG0VSgAA010NVMerchantG0VSgAA19NVDynamicDescriptorVSgAA15NVPaymentOptionVSgAVSbtcfc",
-            "mangledName": "$s21NuveiSimplyConnectSDK26CheckoutTransactionDetailsV12sessionToken10merchantId016applePayMerchantK00j4SiteK08currency6amount04useriK0012clientUniqueK00s7RequestK010customData14billingAddress08shippingY00rG00jG017dynamicDescriptor13paymentOption14countryOverrde17forceWebChallengeACSS_S6SSgA3vA09NVBillingY0CSgAA010NVShippingY0CSgAA06NVUserG0VSgAA010NVMerchantG0VSgAA19NVDynamicDescriptorVSgAA15NVPaymentOptionVSgAVSbtcfc",
+            "usr": "s:21NuveiSimplyConnectSDK26CheckoutTransactionDetailsV12sessionToken10merchantId016applePayMerchantK00lmN4Name0j4SiteK08currency6amount04useriK0012clientUniqueK00t7RequestK010customData14billingAddress08shippingZ00sG00jG017dynamicDescriptor13paymentOption11countryCode17forceWebChallengeACSS_S7SSgA3wA09NVBillingZ0CSgAA010NVShippingZ0CSgAA06NVUserG0VSgAA010NVMerchantG0VSgAA19NVDynamicDescriptorVSgAA15NVPaymentOptionVSgAWSbtcfc",
+            "mangledName": "$s21NuveiSimplyConnectSDK26CheckoutTransactionDetailsV12sessionToken10merchantId016applePayMerchantK00lmN4Name0j4SiteK08currency6amount04useriK0012clientUniqueK00t7RequestK010customData14billingAddress08shippingZ00sG00jG017dynamicDescriptor13paymentOption11countryCode17forceWebChallengeACSS_S7SSgA3wA09NVBillingZ0CSgAA010NVShippingZ0CSgAA06NVUserG0VSgAA010NVMerchantG0VSgAA19NVDynamicDescriptorVSgAA15NVPaymentOptionVSgAWSbtcfc",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
               "AccessControl"
@@ -16231,6 +16779,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -17298,6 +17860,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -17378,6 +17954,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -17416,7 +18006,6 @@
         "declKind": "Import",
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
-          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -17628,6 +18217,22 @@
         "superclassUsr": "s:21NuveiSimplyConnectSDK0A15UICustomizationC",
         "superclassNames": [
           "NuveiSimplyConnectSDK.NuveiUICustomization"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17655,10 +18260,7 @@
         "name": "TinyConstraints",
         "printedName": "TinyConstraints",
         "declKind": "Import",
-        "moduleName": "NuveiSimplyConnectSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "NuveiSimplyConnectSDK"
       },
       {
         "kind": "Import",
@@ -17688,7 +18290,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -17798,7 +18416,6 @@
         "declKind": "Import",
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
-          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -18859,6 +19476,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "JSONWebEncryption",
             "printedName": "JSONWebEncryption",
             "usr": "s:21NuveiSimplyConnectSDK17JSONWebEncryptionP",
@@ -19135,6 +19766,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -19316,10 +19963,7 @@
         "name": "TinyConstraints",
         "printedName": "TinyConstraints",
         "declKind": "Import",
-        "moduleName": "NuveiSimplyConnectSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "NuveiSimplyConnectSDK"
       },
       {
         "kind": "Import",
@@ -19328,7 +19972,7 @@
         "declKind": "Import",
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -19371,6 +20015,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -19425,6 +20070,7 @@
             "mangledName": "$s21NuveiSimplyConnectSDK22CheckoutViewControllerC18transactionDetailsAcA0e11TransactionI0V_tcfc",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -19450,6 +20096,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -19506,6 +20153,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -19537,6 +20185,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -19568,6 +20217,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -19623,6 +20273,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -19635,6 +20286,7 @@
         "mangledName": "$s21NuveiSimplyConnectSDK22CheckoutViewControllerC",
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -19647,6 +20299,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -20180,6 +20846,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -20491,6 +21173,22 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "NuveiSimplyConnectSDK.NVOutput"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -20683,7 +21381,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -20777,6 +21491,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -21094,6 +21824,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -21295,6 +22039,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -22046,7 +22804,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -22103,6 +22877,22 @@
         "moduleName": "NuveiSimplyConnectSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -22329,6 +23119,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -22604,6 +23408,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -23143,12 +23961,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -23261,6 +24073,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -23345,6 +24171,20 @@
             "printedName": "JWK",
             "usr": "s:9JOSESwift3JWKP",
             "mangledName": "$s9JOSESwift3JWKP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -23451,6 +24291,20 @@
         "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -23623,6 +24477,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -23943,6 +24811,7 @@
             "mangledName": "$sSo16UIViewControllerC21NuveiSimplyConnectSDKE016getNVUIOwnerViewB0AByF",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -23957,6 +24826,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -23971,6 +24841,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24058,6 +24942,7 @@
             "mangledName": "$sSo13UIApplicationC21NuveiSimplyConnectSDKE26getNVUIOwnerViewControllerSo06UIViewI0CyF",
             "moduleName": "NuveiSimplyConnectSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -24072,6 +24957,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIApplication",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -24086,6 +24972,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24184,13 +25084,6 @@
       "value": "22"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Customization\/NuveiToolbarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 25,
-      "value": "\"NuveiSimplyConnectSDK.NuveiToolbarCustomization\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Events\/ErrorMessage.swift",
       "kind": "StringLiteral",
       "offset": 407,
@@ -24254,13 +25147,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Customization\/NuveiButtonCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 775,
-      "length": 24,
-      "value": "\"NuveiSimplyConnectSDK.NuveiButtonCustomization\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/ChallengeExecutor.swift",
       "kind": "StringLiteral",
       "offset": 389,
@@ -24312,14 +25198,14 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/CheckoutViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3414,
+      "offset": 3428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/CheckoutViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3688,
+      "offset": 3702,
       "length": 5,
       "value": "false"
     },
@@ -24373,170 +25259,72 @@
       "value": "17"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Customization\/ButtonCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 620,
-      "length": 19,
-      "value": "\"NuveiSimplyConnectSDK.ButtonCustomization\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 2154,
+      "offset": 2308,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 2188,
+      "offset": 2342,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
+      "kind": "StringLiteral",
+      "offset": 5577,
+      "length": 11,
+      "value": "\"nuvei.com\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 10981,
+      "offset": 11752,
       "length": 17,
       "value": "1"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 11008,
+      "offset": 11779,
       "length": 11,
       "value": "2"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 11029,
+      "offset": 11800,
       "length": 13,
       "value": "3"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 11052,
+      "offset": 11823,
       "length": 8,
       "value": "4"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 11070,
+      "offset": 11841,
       "length": 10,
       "value": "5"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 11090,
+      "offset": 11861,
       "length": 15,
       "value": "6"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 11115,
-      "length": 17,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10981,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11008,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11029,
-      "length": 13,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11052,
-      "length": 8,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11070,
-      "length": 10,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11090,
-      "length": 15,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11115,
-      "length": 17,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10981,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11008,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11029,
-      "length": 13,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11052,
-      "length": 8,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11070,
-      "length": 10,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11090,
-      "length": 15,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVInput.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11115,
+      "offset": 11886,
       "length": 17,
       "value": "7"
     },
@@ -24711,21 +25499,21 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiField.swift",
       "kind": "BooleanLiteral",
-      "offset": 614,
+      "offset": 593,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiField.swift",
       "kind": "IntegerLiteral",
-      "offset": 746,
+      "offset": 725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiField.swift",
       "kind": "BooleanLiteral",
-      "offset": 800,
+      "offset": 779,
       "length": 4,
       "value": "true"
     },
@@ -24739,13 +25527,6 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
       "kind": "StringLiteral",
-      "offset": 191,
-      "length": 5,
-      "value": "\"DEF\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
       "offset": 1517,
       "length": 15,
       "value": "\"A128CBC-HS256\""
@@ -24763,55 +25544,6 @@
       "offset": 1599,
       "length": 15,
       "value": "\"A256CBC-HS512\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 1517,
-      "length": 15,
-      "value": "\"A128CBC-HS256\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 1558,
-      "length": 15,
-      "value": "\"A192CBC-HS384\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 1599,
-      "length": 15,
-      "value": "\"A256CBC-HS512\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4509,
-      "length": 9,
-      "value": "\"ECDH-ES\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4545,
-      "length": 16,
-      "value": "\"ECDH-ES+A128KW\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4588,
-      "length": 16,
-      "value": "\"ECDH-ES+A192KW\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4631,
-      "length": 16,
-      "value": "\"ECDH-ES+A256KW\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Algorithm.swift",
@@ -24863,13 +25595,6 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Customization\/NuveiTextBoxCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 25,
-      "value": "\"NuveiSimplyConnectSDK.NuveiTextBoxCustomization\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVMultiSelectorController.swift",
       "kind": "StringLiteral",
       "offset": 219,
@@ -24903,20 +25628,6 @@
       "offset": 477,
       "length": 2,
       "value": "14"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Customization\/NuveiLabelCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 23,
-      "value": "\"NuveiSimplyConnectSDK.NuveiLabelCustomization\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Model\/NVAuthenticate3dOutput.swift",
-      "kind": "StringLiteral",
-      "offset": 364,
-      "length": 22,
-      "value": "\"NuveiSimplyConnectSDK.NVAuthenticate3dOutput\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Utils\/Utils.swift",
@@ -25110,126 +25821,126 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "BooleanLiteral",
-      "offset": 691,
+      "offset": 670,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 813,
+      "offset": 792,
       "length": 17,
       "value": "\"Cardholder Name\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 874,
       "length": 12,
       "value": "\"John Smith\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 1131,
+      "offset": 1110,
       "length": 13,
       "value": "\"Card Number\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1191,
       "length": 21,
       "value": "\"1234-5678-1234-5678\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 1457,
+      "offset": 1436,
       "length": 13,
       "value": "\"Expiry Date\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1517,
       "length": 7,
       "value": "\"12\/23\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 1760,
+      "offset": 1739,
       "length": 5,
       "value": "\"CVV\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "StringLiteral",
-      "offset": 1830,
+      "offset": 1809,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "BooleanLiteral",
-      "offset": 1890,
+      "offset": 1869,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1945,
+      "offset": 1924,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "BooleanLiteral",
-      "offset": 2190,
+      "offset": 2169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "FloatLiteral",
-      "offset": 2386,
+      "offset": 2365,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "FloatLiteral",
-      "offset": 2425,
+      "offset": 2404,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "FloatLiteral",
-      "offset": 2583,
+      "offset": 2562,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "Dictionary",
-      "offset": 5530,
+      "offset": 5509,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "Dictionary",
-      "offset": 6356,
+      "offset": 6335,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiFields\/NuveiCreditCardField.swift",
       "kind": "BooleanLiteral",
-      "offset": 6395,
+      "offset": 6374,
       "length": 4,
       "value": "true"
     },
@@ -25274,13 +25985,6 @@
       "offset": 550,
       "length": 2,
       "value": "14"
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Customization\/LabelCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 18,
-      "value": "\"NuveiSimplyConnectSDK.LabelCustomization\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Model\/ConfigParameters.swift",
@@ -25381,177 +26085,436 @@
       "value": "17"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Customization\/ToolbarCustomization.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
       "kind": "StringLiteral",
-      "offset": 202,
-      "length": 20,
-      "value": "\"NuveiSimplyConnectSDK.ToolbarCustomization\""
+      "offset": 272,
+      "length": 31,
+      "value": "\"nv_MOCK_SIM_COUNTRY_CODE_FLAG\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
       "kind": "StringLiteral",
-      "offset": 291,
+      "offset": 347,
+      "length": 26,
+      "value": "\"nv_MOCK_SIM_COUNTRY_CODE\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 584,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1761,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1772,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1938,
+      "length": 7,
+      "value": "\"en-US\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2037,
+      "length": 23,
+      "value": "\"^[a-z]{2}-[A-Z]{2}$\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2182,
+      "length": 7,
+      "value": "\"en-US\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2340,
       "length": 8,
       "value": "\"40C1AC\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
       "kind": "StringLiteral",
-      "offset": 370,
+      "offset": 2419,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Utils\/NuveiUtils.swift",
       "kind": "StringLiteral",
-      "offset": 396,
+      "offset": 2445,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 801,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 915,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 966,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3448,
+      "offset": 1113,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1655,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1763,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1769,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1783,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1789,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1802,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1808,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1822,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1880,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
+      "length": 302,
+      "value": "\"iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAAAXNSR0IArs4c6QAAAJtJREFUGBljzCuq3PqfgYGfgZ0hcHJ7+2sGPCC3slKU4SfDekYGho9MYE0M\/60Zfv7fD5bAoRGi6f9+BqBakB4mkE1AtVeBWBuXZoQmoBqQWqAeoK0MDJgSjI4wZ+OSA2vEpRkkDnIFkITahDAQrhGkBsN0kCAWTSBBFI0gATTNICGgnxA2gQRAAEMjSLCkpEHs57+f60BsXNEEALDEVwUfVqvYAAAAAElFTkSuQmCC\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2528,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2567,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2623,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2629,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2643,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2649,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2662,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2668,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2682,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2746,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3461,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/ExpandableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3552,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3452,
+      "offset": 3427,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3431,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 3986,
+      "offset": 3965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 8478,
-      "length": 13,
-      "value": "\"NuveiSimplyConnectSDK.PickerHandler\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 9650,
+      "offset": 9629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 9691,
+      "offset": 9670,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2933,
-      "length": 16,
-      "value": "\"NuveiSimplyConnectSDK.LabeledTextField\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 11219,
+      "offset": 11198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 11422,
+      "offset": 11401,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 11456,
+      "offset": 11435,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 11488,
+      "offset": 11467,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 12300,
+      "offset": 12279,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 12369,
+      "offset": 12348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 12407,
+      "offset": 12386,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 12445,
+      "offset": 12424,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 10888,
-      "length": 19,
-      "value": "\"NuveiSimplyConnectSDK.CreditCardTextField\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 15206,
+      "offset": 15185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 15281,
+      "offset": 15260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15324,
+      "offset": 15303,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 14539,
-      "length": 19,
-      "value": "\"NuveiSimplyConnectSDK.ExpiryDateTextField\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 19969,
+      "offset": 19948,
       "length": 4,
       "value": "true"
     },
@@ -25607,14 +26570,14 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "BooleanLiteral",
-      "offset": 8097,
+      "offset": 8172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/MobileSDKInternal.swift",
       "kind": "BooleanLiteral",
-      "offset": 12881,
+      "offset": 13058,
       "length": 5,
       "value": "false"
     },
@@ -25677,35 +26640,35 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/Data\/CheckoutInput.swift",
       "kind": "StringLiteral",
-      "offset": 4114,
+      "offset": 4241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/Data\/CheckoutInput.swift",
       "kind": "StringLiteral",
-      "offset": 4144,
+      "offset": 4271,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/Data\/CheckoutInput.swift",
       "kind": "StringLiteral",
-      "offset": 4171,
+      "offset": 4298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/Data\/CheckoutInput.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4336,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/ViewModel\/Data\/CheckoutInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 4245,
+      "offset": 4372,
       "length": 5,
       "value": "false"
     },
@@ -25724,74 +26687,60 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Customization\/NuveiFieldCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 236,
-      "length": 23,
-      "value": "\"NuveiSimplyConnectSDK.NuveiFieldCustomization\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 433,
+      "offset": 412,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 717,
+      "offset": 696,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 731,
+      "offset": 710,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 743,
+      "offset": 722,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 756,
+      "offset": 735,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1474,
+      "offset": 1453,
       "length": 2,
       "value": "62"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1499,
+      "offset": 1478,
       "length": 2,
       "value": "62"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1546,
+      "offset": 1525,
       "length": 16,
       "value": "\"Checkout\/Close\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/Views\/HeaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 175,
-      "length": 10,
-      "value": "\"NuveiSimplyConnectSDK.HeaderView\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/API\/ThreeDSAPI.swift",
@@ -25869,6 +26818,195 @@
       "offset": 365,
       "length": 26,
       "value": "\"HTTPS:\/\/EMV3DS\/challenge\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8192,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8251,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8257,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8271,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8277,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8290,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8296,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8310,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8358,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8411,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8476,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8482,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8496,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8502,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8515,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8521,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8535,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8636,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8698,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8704,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8718,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8724,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8737,
+      "length": 5,
+      "value": "128.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8743,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8757,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Controllers\/NVBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8843,
+      "length": 1894,
+      "value": "\"iVBORw0KGgoAAAANSUhEUgAAADkAAAAyCAYAAADm33NGAAAAAXNSR0IArs4c6QAABUNJREFUaAXVmnuoVFUUxq\/d1ETN61Wz0EulmBVaakqEitFDSUktKAIJwkAJSVN8FSGCpEai9IQiyj\/E\/vAPU9AoRCKpKKykMnvLNSky7eErX2W\/dW3LN\/c8Zu8z54wzFz5mnb2\/9a1vzZ45Z58zt6Gh4L+zDQ3NYD74CBwCR8FusApcU3D54uVpYgL4BZxNwEnGFxTvpKAKmB8LrImkBnV8YUE2ipOlsR7gV2nwFPFKMB7cDOaB\/cA1+i\/x6OIcFaCM4dXSwHHiCe3LMNYffC28ncQd2vNq8hijg4GtnFulx5OMwhktPONPT+LW1DhGt4rxH4k7pxlkfr3w7STVPY1\/wecweJcYtpW5p5wpOC3gmOQ9XS7ngs1jsiPYI2a3+5ohZ4nk2Rl5oG9uVXkYmytGzxAP9TUAtwtolfxNvrlV42GuD\/hDTL4UWpzc+yXfPup3hGoUysfQy2Lwd+JeWQqS957ofEl8cRad3HMwMgz8I+ZmJxWBMwXMBLFnXMaHA9V6NEmrquOYehe4a+JXxLHvPuO223G85Ukm4bwiPPtUNCdxqzKOgfvEkDUQ2dk4I8zNEe5GN97+Fc5l4C\/hvtieU7VjTFwC9oqZzWnF4T0m3DfLcG1v61bdztRD0viFzVH4STFi17ZBacWYD2nSrrnfiP62NO1C5ijeD9jNr3u3nylXCK53k6YFf5LoW52p5WrkOk\/BdWLAbqkuLVcATlCTpkfOW1Lne+LYs3K52sHzFLoF2P2fW8WHfUTgZ2nyWvJOS63FPrUq4lCsA\/hYin5CfJGPKLzgJk2XvDVS7zDx5T71MnMo8JAUtJUc4ysGN2uTTeT+JnXX+tYM5lGkG\/hZir0RIkJepiatBrm2S3JfD\/uqjAqp7c1FeIUUOk7c4p18zmglTTZSb5fU\/4A430clCA4AJ6TI0pAGjUtu5ib\/z79V6tuqTgv1kMpHcKMU2EfcJTUhZpKcipo0STQ2iA972tc1plT4EEK3i7C9gw+Eq1S+klaT2leBv8XPsixeSnIQs+\/CFyK6o4QQcIBGxStp5dBZJn6s4SsDbESpCMwSQbvPGxFl+Y2Qm1eTXdHSB9Mb\/BzEsBDqCQ4Cd+p+NYbmPYROLk1aQbSmiS\/zN87biBJJfF6E7P6ur86HxuTn2aTtvD4Uf7uIvXZe532TcD3QPeP885MZA\/Rya9IsoDcK6B56RpA1kt8B7mP6LXGnIIEYMhpeTwZiUhOH0FwrPg8Q90gk6wTEyZJojd6t81ljdPTuZVFWHc1D8wpwBLgFWa3zsTHkTuA7SXo7lphxEF17Gpf4HCiLLHqLxa\/90DQ4VQfCQkmw7+R1qQk1MInHzuAH8b010RakvsDu19zSP5tIrrEJPE8V3+Z\/YqxFJl4Tol0fe8YSKxhEcwqYCXJ\/jIHmNuAWyH7c7VhilYGRQE\/Hj5QQcjhAfzxwJhIfLmcthfYQYI8vXY15JVpMvC+TnxM3lhByOEDzXqnxXA6SEQn0X5AafxL3aSMR3CkT9i7cFsnOYQBd26XYtXIFaMpBMiKBbjOw\/xVyq\/lUG4mBTTK4JZJZZwP0Mlf6sd9SGm17ZDfBrvNJddZTxC69dAcnpacBtqnV3xJ\/imTV2QAPfo5g+bDY7mVNtsrATRLXZcgKXo3x3mK+1T6ua2Rp7Ut7oxDqKsR7E9gp\/XxmDdgZbyCvu4G7QB8kXgrsUYcuO4c1+2febwBPgGHi8kE+vuvajml0hnTvTkL1\/rpemj0X0uR0oE\/C6rlJ2xSUbutcx0y0gOXgU2A7hnpp1BZnD3gdRH5C+A9BtO1Ts0ajYAAAAABJRU5ErkJggg==\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWE\/EcdhEsEncryptor.swift",
@@ -26804,91 +27942,84 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5472,
-      "length": 15,
-      "value": "\"nvdbg_country\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 5566,
+      "offset": 5458,
       "length": 9,
       "value": "\"cc_card\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 5500,
       "length": 23,
       "value": "\"apmgw_expresscheckout\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5667,
+      "offset": 5559,
       "length": 15,
       "value": "\"ppp_GooglePay\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5717,
+      "offset": 5609,
       "length": 14,
       "value": "\"ppp_ApplePay\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5770,
+      "offset": 5662,
       "length": 11,
       "value": "\"apmgw_ACH\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5813,
+      "offset": 5705,
       "length": 13,
       "value": "\"apmgw_iDeal\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5859,
+      "offset": 5751,
       "length": 14,
       "value": "\"apmgw_Sofort\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5974,
+      "offset": 5866,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6076,
+      "offset": 5968,
       "length": 10,
       "value": "\"ApplePay\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6127,
+      "offset": 6019,
       "length": 12,
       "value": "\"payer_name\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6180,
+      "offset": 6072,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/NetworkConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6290,
+      "offset": 6182,
       "length": 4,
       "value": "9072"
     },
@@ -26898,27 +28029,6 @@
       "offset": 230,
       "length": 12,
       "value": "\"3DS-app-id\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Hash.swift",
-      "kind": "StringLiteral",
-      "offset": 155,
-      "length": 9,
-      "value": "\"SHA-256\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Hash.swift",
-      "kind": "StringLiteral",
-      "offset": 183,
-      "length": 9,
-      "value": "\"SHA-384\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Hash.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 9,
-      "value": "\"SHA-512\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Encryption\/Classes\/JWA\/Hash.swift",
@@ -27014,429 +28124,408 @@
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 635,
+      "offset": 602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 831,
+      "offset": 798,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 870,
+      "offset": 837,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1028,
+      "offset": 995,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1351,
+      "offset": 1318,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 22,
-      "value": "\"NuveiSimplyConnectSDK.CheckoutViewController\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13765,
-      "length": 16,
-      "value": "\"NuveiSimplyConnectSDK.TableViewHandler\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18527,
+      "offset": 18732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18810,
+      "offset": 19015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19541,
+      "offset": 19746,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19840,
+      "offset": 20045,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19856,
+      "offset": 20061,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19912,
+      "offset": 20117,
       "length": 20,
       "value": "\"Checkout\/ListWhite\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19970,
+      "offset": 20175,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20368,
+      "offset": 20573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20422,
+      "offset": 20627,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20480,
+      "offset": 20685,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20493,
+      "offset": 20698,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20505,
+      "offset": 20710,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20519,
+      "offset": 20724,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20926,
+      "offset": 21131,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20957,
+      "offset": 21162,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20989,
+      "offset": 21194,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21022,
+      "offset": 21227,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21047,
+      "offset": 21252,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21234,
+      "offset": 21439,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21287,
+      "offset": 21492,
       "length": 19,
       "value": "\"Checkout\/Checkbox\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21372,
+      "offset": 21577,
       "length": 26,
       "value": "\"Checkout\/CheckboxChecked\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21449,
+      "offset": 21654,
       "length": 32,
       "value": "\"Save my details for future use\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21519,
+      "offset": 21724,
       "length": 20,
       "value": "\"Checkout\/LightGrey\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21582,
+      "offset": 21787,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21626,
+      "offset": 21831,
       "length": 15,
       "value": "\"Checkout\/Lock\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21905,
+      "offset": 22110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22002,
+      "offset": 22207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22317,
+      "offset": 22522,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22470,
+      "offset": 22675,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22496,
+      "offset": 22701,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22553,
+      "offset": 22758,
       "length": 17,
       "value": "\"Checkout\/Delete\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22981,
+      "offset": 23186,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23177,
+      "offset": 23382,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "Array",
-      "offset": 23282,
+      "offset": 23487,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27100,
+      "offset": 27305,
       "length": 17,
       "value": "\"Cardholder Name\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27182,
+      "offset": 27387,
       "length": 12,
       "value": "\"John Smith\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27390,
+      "offset": 27595,
       "length": 13,
       "value": "\"Card Number\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27471,
+      "offset": 27676,
       "length": 21,
       "value": "\"1234-5678-1234-5678\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27688,
+      "offset": 27893,
       "length": 13,
       "value": "\"Expiry Date\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27769,
+      "offset": 27974,
       "length": 7,
       "value": "\"12\/23\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27963,
+      "offset": 28168,
       "length": 5,
       "value": "\"CVV\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28033,
+      "offset": 28238,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28093,
+      "offset": 28298,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28148,
+      "offset": 28353,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33998,
+      "offset": 34203,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35005,
+      "offset": 35210,
       "length": 13,
       "value": "\"Expiry Date\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35086,
+      "offset": 35291,
       "length": 7,
       "value": "\"12\/23\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35280,
+      "offset": 35485,
       "length": 5,
       "value": "\"CVV\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35350,
+      "offset": 35555,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35410,
+      "offset": 35615,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35465,
+      "offset": 35670,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 48873,
+      "offset": 49078,
       "length": 48,
       "value": "\"https:\/\/devmobile.sccdev-qa.com\/autoclose.html\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 48962,
+      "offset": 49167,
       "length": 74,
       "value": "\"https:\/\/cdn.safecharge.com\/safecharge_resources\/v1\/websdk\/autoclose.html\""
-    },
-    {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/UI\/CheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 48762,
-      "length": 25,
-      "value": "\"NuveiSimplyConnectSDK.CheckoutWebViewController\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/ThreeDS2Service.swift",
@@ -27719,13 +28808,6 @@
       "value": "\"C016\""
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/DeviceInfo\/CommonDeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 208,
-      "length": 16,
-      "value": "\"NuveiSimplyConnectSDK.CommonDeviceInfo\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Internal\/Views\/CheckBoxWithText.swift",
       "kind": "StringLiteral",
       "offset": 1936,
@@ -27852,13 +28934,6 @@
       "value": "14"
     },
     {
-      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Nuvei3DSSDK\/Customization\/TextBoxCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 20,
-      "value": "\"NuveiSimplyConnectSDK.TextBoxCustomization\""
-    },
-    {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/Internal\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 201,
@@ -27877,7 +28952,7 @@
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 7,
-      "value": "\"1.1.4\""
+      "value": "\"1.5.1\""
     },
     {
       "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/safechargemobilesdk-ios\/NuveiMobileSDK\/NuveiSimplyConnectSDK.swift",
