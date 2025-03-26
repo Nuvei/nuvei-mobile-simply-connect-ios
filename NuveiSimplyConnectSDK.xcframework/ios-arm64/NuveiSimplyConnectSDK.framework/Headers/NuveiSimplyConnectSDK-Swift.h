@@ -370,6 +370,7 @@ SWIFT_CLASS("_TtC21NuveiSimplyConnectSDK20NuveiCreditCardField")
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
