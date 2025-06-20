@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NuveiSimplyConnect"
-  s.version = "1.5.1"
+  s.version = "1.5.2"
   s.summary = "NuveiSimplyConnect"
   s.description = <<-DESC
   NuveiSimplyConnect SDK
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.dependency 'CryptoSwift', '~> 1.4'
   s.dependency 'JOSESwift', '~> 2.4'
   s.dependency 'TinyConstraints', '~> 4.0'
-  s.dependency 'SDWebImage', '~> 5.15'
+  s.dependency 'SDWebImage', '~> 5.21'
 end
