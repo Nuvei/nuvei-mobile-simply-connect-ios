@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NuveiSimplyConnect"
-  s.version = "1.5.2"
+  s.version = "1.5.3"
   s.summary = "NuveiSimplyConnect"
   s.description = <<-DESC
   NuveiSimplyConnect SDK
