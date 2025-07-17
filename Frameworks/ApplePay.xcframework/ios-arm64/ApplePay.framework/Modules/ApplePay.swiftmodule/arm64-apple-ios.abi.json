@@ -1,0 +1,445 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ApplePay",
+    "printedName": "ApplePay",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Core",
+        "printedName": "Core",
+        "declKind": "Import",
+        "moduleName": "ApplePay",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplePay"
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "ApplePay"
+      },
+      {
+        "kind": "Import",
+        "name": "TinyConstraints",
+        "printedName": "TinyConstraints",
+        "declKind": "Import",
+        "moduleName": "ApplePay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplePayButton",
+        "printedName": "ApplePayButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(uiOwner:input:additionalParams:auth3dSupported:forceWebChallenge:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplePayButton",
+                "printedName": "ApplePay.ApplePayButton",
+                "usr": "c:@M@ApplePay@objc(cs)ApplePayButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NVInput",
+                "printedName": "Core.NVInput",
+                "usr": "s:4Core7NVInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplePayDelegate",
+                "printedName": "any ApplePay.ApplePayDelegate",
+                "usr": "s:8ApplePay0aB8DelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ApplePay0aB6ButtonC7uiOwner5input16additionalParams15auth3dSupported17forceWebChallenge8delegateACSo16UIViewControllerC_4Core7NVInputVSDySSypGS2bAA0aB8Delegate_ptcfc",
+            "mangledName": "$s8ApplePay0aB6ButtonC7uiOwner5input16additionalParams15auth3dSupported17forceWebChallenge8delegateACSo16UIViewControllerC_4Core7NVInputVSDySSypGS2bAA0aB8Delegate_ptcfc",
+            "moduleName": "ApplePay",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentAuthorizationViewControllerDidFinish",
+            "printedName": "paymentAuthorizationViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentAuthorizationViewController",
+                "printedName": "PassKit.PKPaymentAuthorizationViewController",
+                "usr": "c:objc(cs)PKPaymentAuthorizationViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ApplePay@objc(cs)ApplePayButton(im)paymentAuthorizationViewControllerDidFinish:",
+            "mangledName": "$s8ApplePay0aB6ButtonC43paymentAuthorizationViewControllerDidFinishyySo09PKPaymentefG0CF",
+            "moduleName": "ApplePay",
+            "objc_name": "paymentAuthorizationViewControllerDidFinish:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentAuthorizationViewController",
+            "printedName": "paymentAuthorizationViewController(_:didAuthorizePayment:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentAuthorizationViewController",
+                "printedName": "PassKit.PKPaymentAuthorizationViewController",
+                "usr": "c:objc(cs)PKPaymentAuthorizationViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKPaymentAuthorizationResult",
+                    "printedName": "PassKit.PKPaymentAuthorizationResult",
+                    "usr": "c:objc(cs)PKPaymentAuthorizationResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ApplePay@objc(cs)ApplePayButton(im)paymentAuthorizationViewController:didAuthorizePayment:handler:",
+            "mangledName": "$s8ApplePay0aB6ButtonC34paymentAuthorizationViewController_19didAuthorizePayment7handlerySo09PKPaymentefG0C_So0L0CySo0lE6ResultCctF",
+            "moduleName": "ApplePay",
+            "objc_name": "paymentAuthorizationViewController:didAuthorizePayment:handler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ApplePay@objc(cs)ApplePayButton",
+        "mangledName": "$s8ApplePay0aB6ButtonC",
+        "moduleName": "ApplePay",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Constrainable",
+            "printedName": "Constrainable",
+            "usr": "s:15TinyConstraints13ConstrainableP",
+            "mangledName": "$s15TinyConstraints13ConstrainableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplePayDelegate",
+        "printedName": "ApplePayDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSubmitResponse",
+            "printedName": "onSubmitResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NVOutput",
+                "printedName": "Core.NVOutput",
+                "usr": "s:4Core8NVOutputC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ApplePay0aB8DelegateP16onSubmitResponseyy4Core8NVOutputCF",
+            "mangledName": "$s8ApplePay0aB8DelegateP16onSubmitResponseyy4Core8NVOutputCF",
+            "moduleName": "ApplePay",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApplePay.ApplePayDelegate>",
+            "sugared_genericSig": "<Self where Self : ApplePay.ApplePayDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8ApplePay0aB8DelegateP",
+        "mangledName": "$s8ApplePay0aB8DelegateP",
+        "moduleName": "ApplePay",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Core",
+        "printedName": "Core",
+        "declKind": "Import",
+        "moduleName": "ApplePay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApplePay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplePay"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/ApplePay\/ApplePay\/ApplePayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 391,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/ApplePay\/ApplePay\/ApplePayButton.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 27,
+      "value": "\"Checkout\/Methods\/ApplePay\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/ApplePay\/ApplePay\/ApplePayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/ApplePay\/ApplePay\/ApplePayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/ApplePay\/ApplePay\/ApplePayButton.swift",
+      "kind": "Dictionary",
+      "offset": 948,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/ApplePay\/ApplePay\/ApplePayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1002,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

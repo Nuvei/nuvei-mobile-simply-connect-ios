@@ -1,0 +1,2738 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Fields",
+    "printedName": "Fields",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JOSESwift",
+        "printedName": "JOSESwift",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "Import",
+        "name": "PayService",
+        "printedName": "PayService",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "Import",
+        "name": "PayService",
+        "printedName": "PayService",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PayService",
+        "printedName": "PayService",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PayService",
+        "printedName": "PayService",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "Import",
+        "name": "TinyConstraints",
+        "printedName": "TinyConstraints",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NuveiCreditCardField",
+        "printedName": "NuveiCreditCardField",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onInputUpdated",
+            "printedName": "onInputUpdated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvp",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvp",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvg",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvg",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvs",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvs",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvM",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC14onInputUpdatedySbcSgvM",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onInputValidated",
+            "printedName": "onInputValidated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Core.InputError]?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Core.InputError]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Core.InputError]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Core.InputError]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InputError",
+                                "printedName": "Core.InputError",
+                                "usr": "s:4Core10InputErrorO"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvp",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvp",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Core.InputError]?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Core.InputError]?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Core.InputError]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[Core.InputError]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "InputError",
+                                    "printedName": "Core.InputError",
+                                    "usr": "s:4Core10InputErrorO"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvg",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvg",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Core.InputError]?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Core.InputError]?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Core.InputError]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[Core.InputError]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "InputError",
+                                    "printedName": "Core.InputError",
+                                    "usr": "s:4Core10InputErrorO"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvs",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvs",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvM",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC16onInputValidatedySay4Core0G5ErrorOGSgcSgvM",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCardDetailsUpdated",
+            "printedName": "onCardDetailsUpdated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PayService.NVCardDetailsOutput?, Core.NVFailure?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PayService.NVCardDetailsOutput?, Core.NVFailure?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(PayService.NVCardDetailsOutput?, Core.NVFailure?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "PayService.NVCardDetailsOutput?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NVCardDetailsOutput",
+                                "printedName": "PayService.NVCardDetailsOutput",
+                                "usr": "s:10PayService19NVCardDetailsOutputV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Core.NVFailure?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NVFailure",
+                                "printedName": "Core.NVFailure",
+                                "usr": "s:4Core9NVFailureO"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvp",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvp",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((PayService.NVCardDetailsOutput?, Core.NVFailure?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PayService.NVCardDetailsOutput?, Core.NVFailure?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(PayService.NVCardDetailsOutput?, Core.NVFailure?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "PayService.NVCardDetailsOutput?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NVCardDetailsOutput",
+                                    "printedName": "PayService.NVCardDetailsOutput",
+                                    "usr": "s:10PayService19NVCardDetailsOutputV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Core.NVFailure?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NVFailure",
+                                    "printedName": "Core.NVFailure",
+                                    "usr": "s:4Core9NVFailureO"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvg",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvg",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((PayService.NVCardDetailsOutput?, Core.NVFailure?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PayService.NVCardDetailsOutput?, Core.NVFailure?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(PayService.NVCardDetailsOutput?, Core.NVFailure?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "PayService.NVCardDetailsOutput?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NVCardDetailsOutput",
+                                    "printedName": "PayService.NVCardDetailsOutput",
+                                    "usr": "s:10PayService19NVCardDetailsOutputV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Core.NVFailure?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NVFailure",
+                                    "printedName": "Core.NVFailure",
+                                    "usr": "s:4Core9NVFailureO"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvs",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvs",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvM",
+                "mangledName": "$s6Fields20NuveiCreditCardFieldC02onD14DetailsUpdatedy10PayService06NVCardG6OutputVSg_4Core9NVFailureOSgtcSgvM",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, [Core.InputError]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, [Core.InputError]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Core.InputError]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Core.InputError]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InputError",
+                                "printedName": "Core.InputError",
+                                "usr": "s:4Core10InputErrorO"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields20NuveiCreditCardFieldC8validate8callbackyySSSg_Say4Core10InputErrorOGSgtXE_tF",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC8validate8callbackyySSSg_Say4Core10InputErrorOGSgtXE_tF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tokenize",
+            "printedName": "tokenize(additionalParams:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields20NuveiCreditCardFieldC8tokenize16additionalParams8callbackySDySSypG_ySSSg_AHtctF",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC8tokenize16additionalParams8callbackySDySSypG_ySSSg_AHtctF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPayment",
+            "printedName": "createPayment(viewController:additionalParams:forceWebChallenge:callback:declineFallbackDecision:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Core.NVCreatePaymentOutput) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NVCreatePaymentOutput",
+                    "printedName": "Core.NVCreatePaymentOutput",
+                    "usr": "s:4Core21NVCreatePaymentOutputC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Core.NVCreatePaymentOutput, UIKit.UIViewController, @escaping (Core.NuveiSimplyConnect.CheckoutCompletionAction) -> ()) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Core.NVCreatePaymentOutput, UIKit.UIViewController, @escaping (Core.NuveiSimplyConnect.CheckoutCompletionAction) -> ()) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Core.NVCreatePaymentOutput, UIKit.UIViewController, (Core.NuveiSimplyConnect.CheckoutCompletionAction) -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NVCreatePaymentOutput",
+                            "printedName": "Core.NVCreatePaymentOutput",
+                            "usr": "s:4Core21NVCreatePaymentOutputC"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Core.NuveiSimplyConnect.CheckoutCompletionAction) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CheckoutCompletionAction",
+                                "printedName": "Core.NuveiSimplyConnect.CheckoutCompletionAction",
+                                "usr": "s:4Core18NuveiSimplyConnectC10PayServiceE24CheckoutCompletionActionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields20NuveiCreditCardFieldC13createPayment14viewController16additionalParams17forceWebChallenge8callback23declineFallbackDecisionySo06UIViewI0C_SDySSypGSby4Core08NVCreateG6OutputCcyAO_AKyAM0B13SimplyConnectC10PayServiceE24CheckoutCompletionActionOctcSgtF",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC13createPayment14viewController16additionalParams17forceWebChallenge8callback23declineFallbackDecisionySo06UIViewI0C_SDySSypGSby4Core08NVCreateG6OutputCcyAO_AKyAM0B13SimplyConnectC10PayServiceE24CheckoutCompletionActionOctcSgtF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardNumberError",
+            "printedName": "showCardNumberError(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields20NuveiCreditCardFieldC04showD11NumberError7messageySSSg_tF",
+            "mangledName": "$s6Fields20NuveiCreditCardFieldC04showD11NumberError7messageySSSg_tF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Fields@objc(cs)NuveiCreditCardField",
+        "mangledName": "$s6Fields20NuveiCreditCardFieldC",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@Fields@objc(cs)NuveiField",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Fields.NuveiField",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Constrainable",
+            "printedName": "Constrainable",
+            "usr": "s:15TinyConstraints13ConstrainableP",
+            "mangledName": "$s15TinyConstraints13ConstrainableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "Import",
+        "name": "TinyConstraints",
+        "printedName": "TinyConstraints",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PayService",
+        "printedName": "PayService",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NuveiField",
+        "printedName": "NuveiField",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customization",
+            "printedName": "customization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NuveiFieldCustomization",
+                "printedName": "Core.NuveiFieldCustomization",
+                "usr": "s:4Core23NuveiFieldCustomizationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvp",
+            "mangledName": "$s6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvp",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NuveiFieldCustomization",
+                    "printedName": "Core.NuveiFieldCustomization",
+                    "usr": "s:4Core23NuveiFieldCustomizationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvg",
+                "mangledName": "$s6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvg",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NuveiFieldCustomization",
+                    "printedName": "Core.NuveiFieldCustomization",
+                    "usr": "s:4Core23NuveiFieldCustomizationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvs",
+                "mangledName": "$s6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvs",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvM",
+                "mangledName": "$s6Fields10NuveiFieldC13customization4Core0bC13CustomizationCvM",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customization:transactionDetails:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NuveiField",
+                "printedName": "Fields.NuveiField",
+                "usr": "c:@M@Fields@objc(cs)NuveiField"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NuveiFieldCustomization",
+                "printedName": "Core.NuveiFieldCustomization",
+                "usr": "s:4Core23NuveiFieldCustomizationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Core.CheckoutTransactionDetails?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutTransactionDetails",
+                    "printedName": "Core.CheckoutTransactionDetails",
+                    "usr": "s:4Core26CheckoutTransactionDetailsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Fields10NuveiFieldC13customization18transactionDetailsAC4Core0bC13CustomizationC_AF019CheckoutTransactionF0VSgtcfc",
+            "mangledName": "$s6Fields10NuveiFieldC13customization18transactionDetailsAC4Core0bC13CustomizationC_AF019CheckoutTransactionF0VSgtcfc",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Fields@objc(cs)NuveiField",
+        "mangledName": "$s6Fields10NuveiFieldC",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Constrainable",
+            "printedName": "Constrainable",
+            "usr": "s:15TinyConstraints13ConstrainableP",
+            "mangledName": "$s15TinyConstraints13ConstrainableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PayService",
+        "printedName": "PayService",
+        "declKind": "Import",
+        "moduleName": "Fields"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NuveiFields",
+        "printedName": "NuveiFields",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customization",
+            "printedName": "customization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Core.NuveiFieldCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NuveiFieldCustomization",
+                    "printedName": "Core.NuveiFieldCustomization",
+                    "usr": "s:4Core23NuveiFieldCustomizationC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvpZ",
+            "mangledName": "$s6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvpZ",
+            "moduleName": "Fields",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Core.NuveiFieldCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NuveiFieldCustomization",
+                        "printedName": "Core.NuveiFieldCustomization",
+                        "usr": "s:4Core23NuveiFieldCustomizationC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvgZ",
+                "mangledName": "$s6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvgZ",
+                "moduleName": "Fields",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Core.NuveiFieldCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NuveiFieldCustomization",
+                        "printedName": "Core.NuveiFieldCustomization",
+                        "usr": "s:4Core23NuveiFieldCustomizationC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvsZ",
+                "mangledName": "$s6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvsZ",
+                "moduleName": "Fields",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvMZ",
+                "mangledName": "$s6Fields05NuveiA0C13customization4Core0B18FieldCustomizationCSgvMZ",
+                "moduleName": "Fields",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(environment:customization:i18n:transactionDetails:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "Core.NuveiSimplyConnect.Environment",
+                "hasDefaultArg": true,
+                "usr": "s:4Core18NuveiSimplyConnectC11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NuveiFieldCustomization",
+                "printedName": "Core.NuveiFieldCustomization",
+                "hasDefaultArg": true,
+                "usr": "s:4Core23NuveiFieldCustomizationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Core.FieldsI18n?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FieldsI18n",
+                    "printedName": "Core.FieldsI18n",
+                    "usr": "s:4Core10FieldsI18nC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Core.CheckoutTransactionDetails?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutTransactionDetails",
+                    "printedName": "Core.CheckoutTransactionDetails",
+                    "usr": "s:4Core26CheckoutTransactionDetailsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields05NuveiA0C5setup11environment13customization4i18n18transactionDetailsy4Core0B13SimplyConnectC11EnvironmentO_AI0B18FieldCustomizationCAI0A4I18nCSgAI019CheckoutTransactionH0VSgtFZ",
+            "mangledName": "$s6Fields05NuveiA0C5setup11environment13customization4i18n18transactionDetailsy4Core0B13SimplyConnectC11EnvironmentO_AI0B18FieldCustomizationCAI0A4I18nCSgAI019CheckoutTransactionH0VSgtFZ",
+            "moduleName": "Fields",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createCreditCardField",
+            "printedName": "createCreditCardField()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NuveiCreditCardField",
+                "printedName": "Fields.NuveiCreditCardField",
+                "usr": "c:@M@Fields@objc(cs)NuveiCreditCardField"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields05NuveiA0C21createCreditCardFieldAA0bdeF0CyKFZ",
+            "mangledName": "$s6Fields05NuveiA0C21createCreditCardFieldAA0bdeF0CyKFZ",
+            "moduleName": "Fields",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPayment",
+            "printedName": "createPayment(uiOwner:input:additionalParams:forceWebChallenge:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NVUIOwner",
+                "printedName": "any Core.NVUIOwner",
+                "usr": "s:4Core9NVUIOwnerP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NVInput",
+                "printedName": "Core.NVInput",
+                "usr": "s:4Core7NVInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Core.NVCreatePaymentOutput) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NVCreatePaymentOutput",
+                    "printedName": "Core.NVCreatePaymentOutput",
+                    "usr": "s:4Core21NVCreatePaymentOutputC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Fields05NuveiA0C13createPayment7uiOwner5input16additionalParams17forceWebChallenge8callbacky4Core9NVUIOwner_p_AJ7NVInputVSDySSypGSbyAJ08NVCreateD6OutputCctFZ",
+            "mangledName": "$s6Fields05NuveiA0C13createPayment7uiOwner5input16additionalParams17forceWebChallenge8callbacky4Core9NVUIOwner_p_AJ7NVInputVSDySSypGSbyAJ08NVCreateD6OutputCctFZ",
+            "moduleName": "Fields",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Fields05NuveiA0C",
+        "mangledName": "$s6Fields05NuveiA0C",
+        "moduleName": "Fields",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EcdhEsJwe",
+        "printedName": "EcdhEsJwe",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(compactSerializedString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EcdhEsJwe",
+                "printedName": "Core.EcdhEsJwe",
+                "usr": "s:4Core9EcdhEsJweV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Core9EcdhEsJweV6FieldsE23compactSerializedStringACSS_tKcfc",
+            "mangledName": "$s4Core9EcdhEsJweV6FieldsE23compactSerializedStringACSS_tKcfc",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:4Core9EcdhEsJweV",
+        "mangledName": "$s4Core9EcdhEsJweV",
+        "moduleName": "Core",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "JSONWebEncryption",
+            "printedName": "JSONWebEncryption",
+            "usr": "s:4Core17JSONWebEncryptionP",
+            "mangledName": "$s4Core17JSONWebEncryptionP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NVCardDetails",
+        "printedName": "NVCardDetails",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ccTempToken:cardHolderName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NVCardDetails",
+                "printedName": "Core.NVCardDetails",
+                "usr": "s:4Core13NVCardDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Core13NVCardDetailsV6FieldsE11ccTempToken14cardHolderNameACSS_SSSgtcfc",
+            "mangledName": "$s4Core13NVCardDetailsV6FieldsE11ccTempToken14cardHolderNameACSS_SSSgtcfc",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:4Core13NVCardDetailsV",
+        "mangledName": "$s4Core13NVCardDetailsV",
+        "moduleName": "Core",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSLayoutConstraint",
+        "printedName": "NSLayoutConstraint",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "with",
+            "printedName": "with(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UILayoutPriority",
+                "printedName": "UIKit.UILayoutPriority",
+                "usr": "c:@T@UILayoutPriority"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Fields@@objc(cs)NSLayoutConstraint(im)with:",
+            "mangledName": "$sSo18NSLayoutConstraintC6FieldsE4withyABXDSo16UILayoutPriorityaF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So18NSLayoutConstraintC6FieldsE3setyABXDSbF",
+            "mangledName": "$sSo18NSLayoutConstraintC6FieldsE3setyABXDSbF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSLayoutConstraint",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "6.0",
+        "objc_name": "NSLayoutConstraint",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ConstraintRelation",
+            "printedName": "ConstraintRelation",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "equal",
+                "printedName": "equal",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView.ConstraintRelation.Type) -> UIKit.UIView.ConstraintRelation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConstraintRelation",
+                        "printedName": "UIKit.UIView.ConstraintRelation",
+                        "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIView.ConstraintRelation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConstraintRelation",
+                            "printedName": "UIKit.UIView.ConstraintRelation",
+                            "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO5equalyA2EmF",
+                "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO5equalyA2EmF",
+                "moduleName": "Fields"
+              },
+              {
+                "kind": "Var",
+                "name": "equalOrLess",
+                "printedName": "equalOrLess",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView.ConstraintRelation.Type) -> UIKit.UIView.ConstraintRelation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConstraintRelation",
+                        "printedName": "UIKit.UIView.ConstraintRelation",
+                        "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIView.ConstraintRelation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConstraintRelation",
+                            "printedName": "UIKit.UIView.ConstraintRelation",
+                            "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO11equalOrLessyA2EmF",
+                "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO11equalOrLessyA2EmF",
+                "moduleName": "Fields"
+              },
+              {
+                "kind": "Var",
+                "name": "equalOrGreater",
+                "printedName": "equalOrGreater",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView.ConstraintRelation.Type) -> UIKit.UIView.ConstraintRelation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConstraintRelation",
+                        "printedName": "UIKit.UIView.ConstraintRelation",
+                        "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIView.ConstraintRelation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConstraintRelation",
+                            "printedName": "UIKit.UIView.ConstraintRelation",
+                            "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO14equalOrGreateryA2EmF",
+                "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO14equalOrGreateryA2EmF",
+                "moduleName": "Fields"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView.ConstraintRelation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConstraintRelation",
+                        "printedName": "UIKit.UIView.ConstraintRelation",
+                        "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO8rawValueAESgSi_tcfc",
+                "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO8rawValueAESgSi_tcfc",
+                "moduleName": "Fields",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO8rawValueSivp",
+                "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO8rawValueSivp",
+                "moduleName": "Fields",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO8rawValueSivg",
+                    "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO8rawValueSivg",
+                    "moduleName": "Fields",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:So6UIViewC6FieldsE18ConstraintRelationO",
+            "mangledName": "$sSo6UIViewC6FieldsE18ConstraintRelationO",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prepareForLayout",
+            "printedName": "prepareForLayout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC6FieldsE16prepareForLayoutABXDyF",
+            "mangledName": "$sSo6UIViewC6FieldsE16prepareForLayoutABXDyF",
+            "moduleName": "Fields",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Constrainable",
+            "printedName": "Constrainable",
+            "usr": "s:15TinyConstraints13ConstrainableP",
+            "mangledName": "$s15TinyConstraints13ConstrainableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 12,
+      "value": "\"F000000000\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 72,
+      "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr\/O0BfXWngO9OJDBsqdR5U2h28\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 74,
+      "value": "\"jrX6Y+LlblTBaYeT2tW7+ca3YzTFXA8duVUwdlWxl3JZCOOeL1feVP6g0TNOHVCkCnirVDLk\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 74,
+      "value": "\"cozod4aSkNvx+929aDr1ithqhruf0skBc2sMZGBBCNpso6XGzyAf2uZ2+9DvXoKIUYgcr7PQ\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 74,
+      "value": "\"mL2Y0awyQN7KCRcusaotYNz2mOPrL\/hAv6hTexkNrQKzFcPwCuc6kN6aNjD+p2CJ51\/5p02S\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 74,
+      "value": "\"NS70nPOmwmg63j6f3n7xVykQ56kNc1l5B5xOpeHJmqk3+hyF1dF\/47rQmMFicN41QSvZ5AZJ\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/MobileSDKInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 36,
+      "value": "\"KgWlIn2VQROMkEHkF9ZBRLx1nFTwIDAQAB\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 736,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 17,
+      "value": "\"Cardholder Name\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 12,
+      "value": "\"John Smith\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 1334,
+      "length": 13,
+      "value": "\"Card Number\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 1471,
+      "length": 21,
+      "value": "\"1234-5678-1234-5678\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 13,
+      "value": "\"Expiry Date\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 1911,
+      "length": 7,
+      "value": "\"12\/23\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 2176,
+      "length": 5,
+      "value": "\"CVV\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "StringLiteral",
+      "offset": 2295,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2355,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2410,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "FloatLiteral",
+      "offset": 2851,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "FloatLiteral",
+      "offset": 2890,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "FloatLiteral",
+      "offset": 3048,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "Dictionary",
+      "offset": 6123,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "Dictionary",
+      "offset": 7051,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiCreditCardField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11157,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 515,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 538,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 565,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 722,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 988,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1106,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1774,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1795,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2658,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2790,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2844,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiFields.swift",
+      "kind": "BooleanLiteral",
+      "offset": 198,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiFields.swift",
+      "kind": "Dictionary",
+      "offset": 1441,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/NuveiPackageSource\/Sources\/Fields\/Fields\/NuveiFields.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1474,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

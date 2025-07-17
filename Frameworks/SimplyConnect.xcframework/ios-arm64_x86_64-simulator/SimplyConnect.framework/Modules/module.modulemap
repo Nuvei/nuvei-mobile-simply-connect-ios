@@ -1,0 +1,6 @@
+framework module SimplyConnect {
+  umbrella header "SimplyConnect.h"
+  export *
+
+  module * { export * }
+}

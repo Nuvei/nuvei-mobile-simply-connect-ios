@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Fields
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+@_exported import Fields
+import Foundation
+import JOSESwift
+import PassKit
+@_exported import PayService
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NuveiCreditCardField : Fields.NuveiField {
+  public typealias ValidationCompletion = (Swift.String?, [Core.InputError]?) -> ()
+  public typealias TokenizationCompletion = (Swift.String?, (any Swift.Error)?) -> ()
+  @_Concurrency.MainActor @preconcurrency public var onInputUpdated: ((_ hasFocus: Swift.Bool) -> ())?
+  @_Concurrency.MainActor @preconcurrency public var onInputValidated: (([Core.InputError]?) -> ())?
+  @_Concurrency.MainActor @preconcurrency public var onCardDetailsUpdated: ((_ cardDetails: PayService.NVCardDetailsOutput?, _ error: Core.NVFailure?) -> ())?
+  @objc deinit
+}
+extension Fields.NuveiCreditCardField {
+  @_Concurrency.MainActor @preconcurrency public func validate(callback: (Swift.String?, [Core.InputError]?) -> ())
+  @_Concurrency.MainActor @preconcurrency public func tokenize(additionalParams: [Swift.String : Any] = [:], callback: @escaping (Swift.String?, Swift.String?) -> ())
+  @_Concurrency.MainActor @preconcurrency public func createPayment(viewController: UIKit.UIViewController, additionalParams: [Swift.String : Any] = [:], forceWebChallenge: Swift.Bool = true, callback: @escaping (Core.NVCreatePaymentOutput) -> (), declineFallbackDecision: Core.NuveiSimplyConnect.DeclineFallbackDecisionCallback?)
+  @_Concurrency.MainActor @preconcurrency public func showCardNumberError(message: Swift.String? = nil)
+}
+public typealias LayoutPriority = UIKit.UILayoutPriority
+extension UIKit.NSLayoutConstraint {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func with(_ p: Fields.LayoutPriority) -> Self
+  @_Concurrency.MainActor @preconcurrency public func set(_ active: Swift.Bool) -> Self
+}
+extension UIKit.UIView {
+  public enum ConstraintRelation : Swift.Int {
+    case equal
+    case equalOrLess
+    case equalOrGreater
+    public init?(rawValue: Swift.Int)
+    @available(iOS 2.0, *)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func prepareForLayout() -> Self
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NuveiField : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var customization: Core.NuveiFieldCustomization {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public init(customization: Core.NuveiFieldCustomization, transactionDetails: Core.CheckoutTransactionDetails?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NuveiFields {
+  public static var customization: Core.NuveiFieldCustomization?
+  public static func setup(environment: Core.NuveiSimplyConnect.Environment = .production, customization: Core.NuveiFieldCustomization = NuveiFieldCustomization(), i18n: Core.FieldsI18n?, transactionDetails: Core.CheckoutTransactionDetails?)
+  public static func createCreditCardField() throws -> Fields.NuveiCreditCardField
+  public static func createPayment(uiOwner: any Core.NVUIOwner, input: Core.NVInput, additionalParams: [Swift.String : Any] = [:], forceWebChallenge: Swift.Bool = true, callback: @escaping (Core.NVCreatePaymentOutput) -> ())
+  @objc deinit
+}
+extension Core.EcdhEsJwe {
+  public init(compactSerializedString: Swift.String) throws
+}
+extension Core.NVCardDetails {
+  public init(ccTempToken: Swift.String, cardHolderName: Swift.String?)
+}
+extension UIKit.UIView.ConstraintRelation : Swift.Equatable {}
+extension UIKit.UIView.ConstraintRelation : Swift.Hashable {}
+extension UIKit.UIView.ConstraintRelation : Swift.RawRepresentable {}

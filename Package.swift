@@ -1,38 +1,76 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "nuvei-mobile-simply-connect-ios",
-    platforms: [
-        .iOS(.v13)
-    ],
-    products: [
-        .library(
-            name: "NuveiSimplyConnectSDK",
-            targets: ["NuveiSimplyConnectSDKWrapper"]),
-    ],
-    dependencies: [
-        .package(url: "https://github.com/airsidemobile/JOSESwift", from: "2.4.0"),
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.8.2"),
-        .package(url: "https://github.com/roberthein/TinyConstraints", from: "4.0.2"),
-    ],
-    targets: [
-        .target(
-            name: "NuveiSimplyConnectSDKWrapper",
-            dependencies: [
-                .product(name: "JOSESwift", package: "JOSESwift"),
-                .product(name: "CryptoSwift", package: "CryptoSwift"),
-                .product(name: "TinyConstraints", package: "TinyConstraints"),
-                .target(name: "NuveiSimplyConnectSDKFramework")
-            ],
-            path: "SwiftPM/NuveiSimplyConnectSDKWrapper"
-        ),
-
-        .binaryTarget(
-            name: "NuveiSimplyConnectSDKFramework",
-            path: "NuveiSimplyConnectSDK.xcframework"
-        )
-    ]
+	name: "NuveiPackage",
+	platforms: [.iOS(.v15)],
+	
+	products: [
+		.library(name: "ApplePay", targets: ["ApplePayWrapper"]),
+		.library(name: "SimplyConnect", targets: ["SimplyConnectWrapper"]),
+		.library(name: "Fields", targets: ["FieldsWrapper"]),
+	],
+	
+	dependencies: [
+		//.package(path: "./PayServicePackage"), // ✅ Explicitly add PayServicePackage
+		//.package(path: "./CorePackage"), // ✅ Explicitly add CorePackage
+		.package(url: "https://github.com/roberthein/TinyConstraints.git", from: "4.0.0"),
+		.package(url: "https://github.com/airsidemobile/JOSESwift.git", from: "2.4.0"),
+		//.package(url: "https://github.com/SDWebImage/SDWebImage", from: "5.0.0"),
+		
+		//.package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.8.4")
+	],
+	targets: [
+		.binaryTarget(
+			name: "ApplePay",
+			path: "./Frameworks/ApplePay.xcframework"
+		),
+		.binaryTarget(
+			name: "Fields",
+			path: "./Frameworks/Fields.xcframework"
+		),
+		.binaryTarget(
+			name: "SimplyConnect",
+			path: "./Frameworks/SimplyConnect.xcframework"
+		),
+		.binaryTarget(
+			name: "CorePackage",
+			path: "./CorePackage/Core.xcframework"
+		),
+		.binaryTarget(
+			name: "PayServicePackage",
+			path: "./PayServicePackage/PayService.xcframework"
+		),
+		.target(
+			name: "SimplyConnectWrapper",
+			dependencies: [
+				"SimplyConnect",
+				"PayServicePackage",
+				"CorePackage",
+				"JOSESwift"
+			]
+		),
+		.target(
+			name: "FieldsWrapper",
+			dependencies: [
+				"Fields",
+				"PayServicePackage",
+				"CorePackage",
+				"JOSESwift",
+				"TinyConstraints"
+			]
+		),
+		.target(
+			name: "ApplePayWrapper",
+			dependencies: [
+				"ApplePay",
+				"CorePackage",
+				//"JOSESwift",
+				"TinyConstraints"
+			]
+		)
+	],
+	swiftLanguageModes: [.v5]
 )

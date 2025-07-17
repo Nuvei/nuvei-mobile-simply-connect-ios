@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ApplePay
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+@_exported import ApplePay
+@_exported import Core
+import Foundation
+import PassKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApplePayButton : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(uiOwner: UIKit.UIViewController, input: Core.NVInput, additionalParams: [Swift.String : Any] = [:], auth3dSupported: Swift.Bool, forceWebChallenge: Swift.Bool = true, delegate: any ApplePay.ApplePayDelegate)
+  @objc deinit
+}
+extension ApplePay.ApplePayButton : PassKit.PKPaymentAuthorizationViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationViewControllerDidFinish(_ controller: PassKit.PKPaymentAuthorizationViewController)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationViewController(_ controller: PassKit.PKPaymentAuthorizationViewController, didAuthorizePayment payment: PassKit.PKPayment, handler completion: @escaping (PassKit.PKPaymentAuthorizationResult) -> Swift.Void)
+}
+public protocol ApplePayDelegate : AnyObject {
+  func onSubmitResponse(_ response: Core.NVOutput)
+}

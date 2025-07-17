@@ -1,0 +1,6 @@
+framework module ApplePay {
+  umbrella header "ApplePay.h"
+  export *
+
+  module * { export * }
+}

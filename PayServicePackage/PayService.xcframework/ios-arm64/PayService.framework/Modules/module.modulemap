@@ -1,0 +1,6 @@
+framework module PayService {
+  umbrella header "PayService.h"
+  export *
+
+  module * { export * }
+}
